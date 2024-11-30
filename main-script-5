@@ -5,6 +5,8 @@ getgenv().petsGoConfig = {
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1302951303089229885/n99H7fPnFC5LhQbADYDajVEsbNn2aoxgdSmOxBa-1jpjun8sfKdqmKLgdOSV8px2DJF5",
     DISCORD_ID = "1282735726148194346",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
+
+    DIAMOND_EGG = false,  -- true = Diamond Egg, false = F2P Egg
     
     MAIL_PET = true,  -- Mail Pet
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
@@ -12,4 +14,4 @@ getgenv().petsGoConfig = {
     USERNAME_TO_MAIL = "pretzilss1" -- Mail Pet To Username
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e81ea00ef49a917bb1242da4f41dc4f9.lua"))()
