@@ -6,12 +6,12 @@ getgenv().petsGoConfig = {
     DISCORD_ID = "1282735726148194346",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger Webhook
 
-    DIAMOND_EGG = false,  -- true = Diamond Egg, false = F2P Egg
+    DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg
     
     MAIL_PET = true,  -- Mail Pet
     MAIL_WEBHOOK_ODDS = 1000000000, -- Minimum Pet Odds To Trigger MAIL Webhook
     MAIL_PET_ODDS = 1000000000,  -- Minimum Pet Odds To Mail
-    USERNAME_TO_MAIL = "pretzilss1" -- Mail Pet To Username
+    USERNAME_TO_MAIL = "Navia_onyx02" -- Mail Pet To Username
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc60be08b11698b7ec7e93b479c5cf34.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
